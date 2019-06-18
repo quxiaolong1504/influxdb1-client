@@ -5,9 +5,9 @@ InfluxDB is an open-source distributed time series database, find more about [In
 
 ## Usage
 To import into your Go project, run the following command in your terminal:
-`go get github.com/influxdata/influxdb1-client/v2`
+`go get github.com/quxiaolong1504/influxdb1-client/v2`
 Then, in your import declaration section of your Go file, paste the following:
-`import "github.com/influxdata/influxdb1-client/v2"`
+`import "github.com/quxiaolong1504/influxdb1-client/v2"`
 
 ## Example
 The following example creates a new client to the InfluxDB host on localhost:8086 and runs a query for the measurement `cpu_load` from the `mydb` database. 
